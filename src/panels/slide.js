@@ -17,7 +17,7 @@ class Slide extends React.Component {
             justifyContent: 'center',
             alignItems: 'center'
         }
-        const path_ = "/assets/Artboards/Artboard " + this.props.number + ".png";
+        const path_ = "./assets/Artboards/Artboard " + this.props.number + ".png";
         return (
             <div width={10}>
                 <div style={divStyle}>

@@ -8,7 +8,6 @@ import State from './panels/states'
 import Home from './panels/Home';
 // import Persik from './panels/Persik';
 import Slide from './panels/slide';
-const graphImage = require("./Artboards/Artboard 1.png")
 const App = () => {
 	const [activePanel, setActivePanel] = useState('home');
 	const [fetchedUser, setUser] = useState(null);
