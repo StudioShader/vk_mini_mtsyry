@@ -1,0 +1,14 @@
+.slide {
+    transition: opacity 0.5s;
+    opacity: 1;
+}
+
+.slide.hide {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.someslide {
+    transition: opacity 0.5s;
+    opacity: 1;
+}
